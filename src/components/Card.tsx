@@ -2,7 +2,7 @@ import { ICard } from '../models';
 
 interface CardProps {
     card: ICard;
-    children: React.Node;
+    children?: React.Node;
 }
 
 export default function Card ({ card, children }: CardProps) {
