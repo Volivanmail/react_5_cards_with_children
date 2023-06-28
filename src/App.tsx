@@ -1,8 +1,9 @@
 import './App.css'
-import { Card } from './components/Card'
+import Card from './components/Card'
 import { data } from './data';
 
-export default function App() {
+function App() {
+
   return (
     <div className="cards">
       <Card card={data[0]}>
@@ -12,3 +13,5 @@ export default function App() {
     </div>
   )
 }
+
+export default App
